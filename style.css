@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,9 +38,13 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+.bloc{
     padding-left: 0;
     padding-right: 0;
+}
+
+.container{
+    padding-left: 50px;
 }
 
 .bloc-lg {
@@ -326,6 +329,13 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    padding-right: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.page2nav > li{
+    padding-bottom: 40px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -848,13 +858,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,20 +882,15 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+
+    .nav > li {
+        padding-right: 50px;
     }
 }
 
@@ -934,6 +939,11 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+
+    .page2nav > li {
+        padding: unset; 
+    }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -1025,6 +1035,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .col-sm-6 > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
