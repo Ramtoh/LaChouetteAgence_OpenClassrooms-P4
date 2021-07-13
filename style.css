@@ -136,7 +136,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -320,7 +320,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 10px;
     float: right;
     z-index: 1;
 }
@@ -329,7 +329,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-    padding-right: 10px;
+    padding-right: 30px;
     list-style: none;
     text-decoration: none;
 }
@@ -337,6 +337,11 @@ a:hover {
 .page2nav > li{
     padding-bottom: 40px;
 }
+
+.page2nav > li > a{
+    text-decoration: none;
+}
+
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -372,7 +377,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -751,6 +756,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black{
+    color: black!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -793,6 +802,10 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+}
+
+.btnaccess{
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -845,10 +858,13 @@ h4 {
     font-size: 16px;
 }
 
+.row{
+    padding-top: 20px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 100%;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -881,9 +897,8 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
+
+
     .b-parallax {
         background-attachment: scroll;
     }
@@ -899,6 +914,10 @@ h4 {
         width: 100%;
     }
 
+    .row{
+        width: 100%;
+    }
+    
     .nav > li {
         padding-right: 50px;
     }
@@ -927,6 +946,10 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+    }
+    
+    .containerP2{
+        padding-left: 10px;
     }
     .navbar.row {
         margin-left: 0;
@@ -1002,8 +1025,7 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-    .bloc-sm,
-    .bloc-md {
+    .bloc-sm{
         padding-left: 0;
         padding-right: 0;
     }
@@ -1030,9 +1052,7 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
-        padding: 20px;
-    }
+    
 
     .close-lightbox {
         display: inline-block;
@@ -1055,7 +1075,7 @@ h4 {
     }
 
     .contactPadding{
-        margin-left: 10px;
+        margin-left: -10px;
     }
 }
 
