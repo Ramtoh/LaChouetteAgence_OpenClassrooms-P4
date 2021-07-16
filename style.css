@@ -801,7 +801,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btnaccess{
@@ -856,6 +856,7 @@ h4 {
 
 .pp2{
     font-size: 16px;
+    color: black!important;
 }
 
 .row{
