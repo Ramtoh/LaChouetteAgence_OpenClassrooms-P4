@@ -18,6 +18,7 @@ La Chouette Agence est le quatrième projet OpenClassrooms, l'optimisation d'un 
 - Compresseur de code
 - Cache Checker 
 - Lighthouse (DevTool navigateur)
+- CCA (Control Contrast Analyser)
 
 ## Tech
 
