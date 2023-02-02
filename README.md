@@ -5,6 +5,8 @@ La Chouette Agence est le quatrième projet OpenClassrooms, l'optimisation d'un 
 - Rapport d'analyse puis optimisation et comparaison avant/après du SEO (Search Engine Optimisation)
 - Rapport de performances et d'accessibilité du site
 
+Site visible : https://ramtoh.github.io/LaChouetteAgence_OpenClassrooms-P4/
+
 ## Fonctionnalités
 
 - Chargement performant du site web 
